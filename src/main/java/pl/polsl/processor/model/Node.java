@@ -25,29 +25,6 @@ public class Node {
     private Node next;
     private Node previous;
 
-//    public Node getWeatherReports(Date date){
-//
-//        if(subNodes==null){
-//            views++;
-//            return this;}
-//        else{
-//            Calendar c = Calendar.getInstance();
-//            c.setTime(date);
-//            if(depth>1) {
-//                Double dep = Math.pow(4, depth-1);
-//                dep.intValue();
-//                c.add(Calendar.DATE, -dep.intValue());
-//            }
-//            Date currentDatePlusOne = c.getTime();
-//            for(Node n:subNodes){
-//                if(n.getKey().after(currentDatePlusOne)){
-//                    views++;
-//                    return n.getWeatherReports(date);
-//                }
-//            }
-//            return getLatestNode();
-//        }
-//    }
 public Node getWeatherReports(Date date){
 
     if(subNodes==null){
